@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=BoggleBoard
+comment1.params=
+comment1.target=BoggleBoard()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ BoggleBoard.\ Creates\ a\ 4\ x\ 4\ boggle\n\ grid\ based\ on\ user\ input.\ \n
+comment2.params=hardcodedInput
+comment2.target=BoggleBoard(java.lang.String[][])
+comment2.text=\n\ Overloaded\ constructor\ for\ objects\ of\ class\ BoggleBoard.\ \n\ Creates\ a\ 4\ x\ 4\ boggle\ grid\ based\ on\ hardcoded\ values\ \n\ for\ testing\ purposes.\ \n
+comment3.params=word
+comment3.target=boolean\ containsWord(java.lang.String)
+comment3.text=\n\ Returns\ true\ if\ the\ board\ contains\ the\ given\ word,\ false\ otherwise.\ \n\ Has\ the\ same\ function\ as\ testWord,\ but\ also\ clears\ the\ usedLetters\ array.\ \n
+comment4.params=word\ indices
+comment4.target=boolean\ testWord(java.lang.String,\ java.lang.String)
+comment4.text=\n\ Returns\ true\ if\ the\ board\ contains\ the\ given\ word,\ false\ otherwise.\ \n\ \n\ Recursion\ within\ a\ for\ loop\ creates\ a\ kind\ of\ tree.\ The\ program\n\ can\ go\ back\ to\ a\ previous\ node\ to\ search\ a\ new\ letter\ branch\n\ to\ see\ if\ the\ word\ can\ be\ made.\n
+comment5.params=letter
+comment5.target=java.lang.String\ getLetterIndices(java.lang.String)
+comment5.text=\n\ Returns\ the\ indices\ for\ ALL\ locations\ of\ a\ given\ letter\ on\ the\ board.\ \n\ Returns\ indices\ as\ a\ string\ of\ integers\ in\ the\ form\ \n\ (row\ index\ 1)(column\ index\ 1)(row\ index\ 2)(column\ index\ 2)...\ etc\n
+comment6.params=row\ column\ targetLetter
+comment6.target=java.lang.String\ adjLetterIndices(int,\ int,\ java.lang.String)
+comment6.text=\n\ Returns\ the\ indices\ for\ the\ locations\ of\ a\ given\ letter\ on\ the\ board\n\ which\ are\ ADJACENT\ TO\ A\ GIVEN\ INDEX.\n\ Returns\ an\ empty\ string\ if\ the\ target\ letter\ is\ not\ found\ \n\ adjacent\ to\ the\ given\ index.\n\ Returns\ indices\ as\ a\ string\ of\ integers\ in\ the\ form\ \n\ (row\ index\ 1)(column\ index\ 1)(row\ index\ 2)(column\ index\ 2)...\ etc\n
+comment7.params=row\ column
+comment7.target=boolean\ isUsed(int,\ int)
+comment7.text=\n\ Returns\ true\ if\ the\ letter\ at\ a\ given\ row\ and\ column\ has\ already\ been\ \n\ used,\ false\ if\ it\ has\ not.\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9
